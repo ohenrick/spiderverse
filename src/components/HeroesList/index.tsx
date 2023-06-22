@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 import HeroPicture from "../HeroPicture";
 
@@ -7,7 +8,6 @@ import styles from "./heroesList.module.scss";
 
 import { spidermanFont } from "@/fonts";
 import { IHeroData } from "@/interfaces/heroes";
-import { motion } from "framer-motion";
 
 interface IProps {
   heroes: IHeroData[];
